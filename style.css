@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+    height: 100vh;
+    width: 100vh;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+h1{
+    margin-left: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: silver;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.board{
+    margin: 5% 0 0 10% ;
+    background-color: green;
+    border: 3px solid white;
+    height: 85%;
+    width: 85%;
+  
+}
+/* .board:hover{
+    transform: rotate(180deg);
+    transition: 30s;
+} */
+ /* .upper{
+    width: 100vh;
+    height: 100vh;
+    z-index: 100000px;
+    display: flex;
+    justify-content: center;
+    border: 3px solid greenyellow;
+ }
+ .spinner{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border: 4px solid rgb(82, 82, 82);
+    border-top: 5px solid white;
+    border-radius: 50%;
+    z-index: 1;
+ }
+ .spinner:hover{
+    transform: rotate(360deg);
+    transition: 3s;
+ } */
+.row{
+    display: flex;
+    flex-direction: row;
+    height: 12.45%;
+    width: 100%;
+}
+.box{
+    display: flex; 
+    justify-content: center;
+    background-color: green;
+    border: 2px solid white;
+    height: 100%;
+    width: 12%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+
+}
+.black{
+    background-color: black;
+   
+}
+.white{
+    background-color: white;
+ 
+}
+.coin{
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    justify-content: center;
+    margin:10px;
+}
