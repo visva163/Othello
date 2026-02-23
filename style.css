@@ -23,6 +23,97 @@ h1{
     width: 85%;
   
 }
+
+
+/* SCOREBOARD */
+#frame{
+    display: flexbox;
+    height: 100vh;
+    width: 100vh;
+}
+#scoreboard{
+    margin-left: 20%;
+    margin-top: 10px;
+    width: 60%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 10px;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    color: white;
+
+    background-color: rgb(20,20,20);
+
+    border: 2px solid silver;
+    border-radius: 10px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: -1;
+}
+
+
+/* Score Colors */
+
+#whiteScore{
+    color: white;
+}
+
+#blackScore{
+    color: silver;
+}
+
+#turn{
+    color: gold;
+}/* SCOREBOARD */
+
+#scoreboard{
+    margin-left: 20%;
+    margin-top: 10px;
+    width: 60%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 10px;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    color: white;
+
+    background-color: rgb(20,20,20);
+
+    border: 2px solid silver;
+    border-radius: 10px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* Score Colors */
+
+#whiteScore{
+    color: white;
+}
+
+#blackScore{
+    color: silver;
+}
+
+#turn{
+    color: gold;
+}
+
+
+
+
+
 /* .board:hover{
     transform: rotate(180deg);
     transition: 30s;
